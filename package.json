@@ -1,0 +1,25 @@
+{
+  "name": "webrtc-demo",
+  "version": "1.0.0",
+  "description": "Practice using the  APIs of WebRtc to achieve a simple video living case",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "serve": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chenxi-Lau/webrtc-demo.git"
+  },
+  "keywords": ["WebRtc"],
+  "author": "Chenxi_Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chenxi-Lau/webrtc-demo/issues"
+  },
+  "homepage": "https://github.com/Chenxi-Lau/webrtc-demo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-ws": "^5.0.2"
+  }
+}
