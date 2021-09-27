@@ -1,6 +1,6 @@
 # webrtc-demo
 
-> Practice using the APIs of WebRtc to achieve a simple video living case
+> 练习 WebRtc 的 APIs 的使用，实现一个简单的视频聊天室
 
 ```sh
 // 安装依赖
@@ -9,6 +9,8 @@ npm install
 // 访问 localhost:3000
 npm run serve
 ```
+
+![webrtc-demo](https://github.com/Chenxi-Lau/webrtc-demo/blob/main/public/static/images/Webrtc-Demo.gif)
 
 ### 相关背景
 
