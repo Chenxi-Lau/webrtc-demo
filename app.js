@@ -1,7 +1,7 @@
 /*
  * @Author: 刘晨曦
  * @Date: 2021-09-27 13:43:09
- * @LastEditTime: 2021-09-27 15:22:10
+ * @LastEditTime: 2021-09-28 09:42:18
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \webrtc-demo\src\app.js
@@ -23,6 +23,10 @@ app.ws('/webrtc', ws => {
       }
     })
   })
+})
+
+app.get('/client', (req, res) => {
+  res.sendFile('./public/client.html', { root: __dirname })
 })
 
 // 托管静态文件

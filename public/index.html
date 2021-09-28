@@ -1,7 +1,7 @@
 <!--
  * @Author: liuchenxi
  * @Date: 2021-09-27 13:43:26
- * @LastEditTime: 2021-09-27 16:43:00
+ * @LastEditTime: 2021-09-28 09:45:07
  * @LastEditors: Please set LastEditors
  * @Description: caller
  * @FilePath: \webrtc-demo\public\index.html
@@ -32,14 +32,13 @@
 
 <body>
   <div class="container">
+    <!-- 呼叫方 -->
     <div class="caller">
-      <iframe src="http://localhost:3000/client.html?type=offer" frameborder="0"
-        style="width: 100%; height: 100%"></iframe>
+      <iframe src="http://localhost:3000/client?type=offer" frameborder="0" style="width: 100%; height: 100%"></iframe>
     </div>
-
+    <!-- 应答方 -->
     <div class="answer">
-      <iframe src="http://localhost:3000/client.html?type=answer" frameborder="0"
-        style="width: 100%; height: 100%"></iframe>
+      <iframe src="http://localhost:3000/client?type=answer" frameborder="0" style="width: 100%; height: 100%"></iframe>
     </div>
   </div>
 </body>
